@@ -30,7 +30,7 @@ body{
     width: 416px;
     height: 189px;
     bottom: 40px;
-    background-image: linear-gradient(to right, #758fd5, #466cd6);
+    background-image: linear-gradient(to right, #e9ce55, #c9a818);
     border-radius: 3rem;
     transform: rotate(9deg);
     right: -11px;
@@ -47,7 +47,7 @@ body{
     height: 100%;
     aspect-ratio: 1;
     padding: 4px;
-    border: 1px solid rgba(220, 220, 220, 0.5);
+    border: 1px solid rgba(44, 44, 44, 0.5);
     border-radius: 100%;
 }
 .menu-header__user__profile-wrapper{
@@ -78,11 +78,11 @@ body{
     gap: 6px;
 }
 .menu-header__user__name{
-    color: gainsboro;
+    color: rgba(44, 44, 44, 0.9);
     line-height: 100%;
 }
 .menu-header__user__position{
-    color: gainsboro;
+    color: rgba(44, 44, 44, 0.9);
     font-weight: 300;
     line-height: 100%;
 }
@@ -96,20 +96,20 @@ body{
 }
 .menu-main__link{
     padding: 0.5rem 1rem 0.5rem 1.5rem;
-    background-color: #466cd6;
+    background-color: #c9a818;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.4rem;
     border-radius: 0.5rem;
-    color: gainsboro;
+    color: rgba(44, 44, 44, 0.9);
     font-weight: 300;
     cursor: pointer;
 }
 .menu-main__link svg{
     width: 1.2rem;
     height: 1.2rem;
-    stroke: gainsboro;
+    stroke: rgba(44, 44, 44, 0.9);
 }
 .menu-list{
     display: flex;
@@ -137,18 +137,18 @@ body{
     transition: color 0.3s ease-in-out;
 }
 .menu-list__item-link:hover{
-    color: #466cd6;
+    color: #c9a818;
 }
 .menu-list__item-link:hover svg{
-    stroke: #466cd6;
+    stroke: #c9a818;
 }
 .menu-list__item-link:active{
-    color: #466cd6;
+    color: #c9a818;
 }
 .menu-list__item-link:active::before{
     content: '';
     width: 5px;
-    background-color: #466cd6;
+    background-color: #c9a818;
     position: absolute;
     right: 0;
     top: 0;
